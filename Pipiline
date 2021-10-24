@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'intialize'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'buliding'
+            }
+        }
+    stage('code rewiew') {
+            steps {
+                echo 'rewiwer'
+            }
+        }
+        stage('compile') {
+            steps {
+                echo 'compiler'
+            }
+     }   }
+}
