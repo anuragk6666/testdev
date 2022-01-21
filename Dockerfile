@@ -1,4 +1,4 @@
-FROM Ubuntu:18.04
+FROM Ubuntu:18.00
 
 MAINTAINER Anurag
 
