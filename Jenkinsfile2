@@ -1,0 +1,14 @@
+pipline{
+      stages{
+        stage{'mvn clean'){
+          sh "mvn clean"
+        }
+        }
+         stage(' test')
+        {sh "mvn test"
+        }
+        stage('install packages'){
+        sh " mvn packages"
+        }
+        }
+        }
