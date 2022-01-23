@@ -12,7 +12,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("anuragkk/tomcat:8.0.36")
+        app = docker.build("anuragkk/tomcat8:8")
     }
 
     stage('Test image') {
